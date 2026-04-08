@@ -67,25 +67,37 @@
 		Seu navegador não suporta audio
 	</audio>
 	<br>
+
 	<ul>
 		<li>Item 1 </li>
 		<li>Item 2 </li>
 		<li>Item 3 </li>
 	</ul>
-	
+<!--lista não ordenada-->
 	<ol type="1" start="5">
 		<li>primeiro</li>
 		<li>segundo</li>
 	</ol>
-	
+<!--lista ordenada-->
 	<ol type="A" start="5">
 		<li>primeiro</li>
 		<li>segundo</li>
 	</ol>
+
 	<ol type="I" start="5">
 		<li>primeiro</li>
 		<li>segundo</li>
 	</ol>
+	<form action="\enviar" method="post">
+		<label for="email">E-mail:</label>
+		<!--label serva para dar um texto na frente da caixa de texto -->
+		<input type="email" required>
+<!--input serve para fazer uma caixa de texto-->
+		<input type="submit" value="enviar">
+		<label for="senha">Senha</label>
+		<input type="password" required>
+		<input type="submit" value="enviar">
+	</form>
 </body>
 
 </html>
